@@ -35,7 +35,7 @@ public class Main{
 		strs.add(" * * ");
 		strs.add("*****");
 		make(0);
-		System.out.println(String.join("\n", strs));
+		System.out.print(String.join("\n", strs));
 		br.close();
 	}
 }
