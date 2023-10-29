@@ -1,5 +1,3 @@
-const { isBuffer } = require("util");
-
 const input = require("fs")
     .readFileSync(process.platform === "linux" ? "/dev/stdin" : "input.txt")
     .toString()
