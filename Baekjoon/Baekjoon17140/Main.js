@@ -104,7 +104,7 @@ const operC = () => {
 
 let time = 0;
 
-while (time < 100) {
+while (time <= 100) {
     if (map[r - 1][c - 1] === k) {
         console.log(time);
         process.exit(0);
